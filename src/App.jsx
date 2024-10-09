@@ -2,7 +2,9 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-// import {HERO_CONTENT} from '../src/assets/constants'
+import About from './components/About';
+import Technologies from './components/Technologies'
+import Experiences from './components/Experiences'
 
 function App() {
   return (
@@ -14,6 +16,9 @@ function App() {
       <div className='container mx-auto px-8'>
       <Navbar />
       <Hero/>
+      <About/>
+      <Technologies/>
+      <Experiences/>
       </div>
      
     </div>
