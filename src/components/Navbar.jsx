@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className='mb-20 flex items-center justify-between py-6'>
   <div className='flex flex-shrink-0 items-center flex-col'>
   <img className='mx-2 w-30' src={logo} alt="Logo" />
-  <hr className='w-1/3 border h-[1.5px] bg-white mt-2' />
+  <hr className='w-3/4 border h-[1.5px] bg-white mt-2' />
 </div>
 
 
