@@ -15,7 +15,7 @@ const Navbar = () => {
         </div>
 
         <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-
+          
         <NavLink href='https://www.linkedin.com/in/muftimehedihasan' target='_blank' rel='noopener noreferrer'>
         <FaLinkedin />
         </NavLink>
@@ -24,8 +24,8 @@ const Navbar = () => {
         <FaGithub />
         </NavLink>
        
-        <NavLink >
-        <FaFacebook href='https://www.facebook.com/muftimehedihasan?mibextid=ZbWKwL' target='_blank' rel='noopener noreferrer'/>
+        <NavLink href='https://www.facebook.com/muftimehedihasan?mibextid=ZbWKwL' target='_blank' rel='noopener noreferrer'>
+        <FaFacebook />
         </NavLink>
 </div>
 
