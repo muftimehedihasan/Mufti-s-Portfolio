@@ -3,6 +3,7 @@ import logo from "../assets/Logo.png"
 import { FaLinkedin } from 'react-icons/fa6'
 import { FaGithub } from 'react-icons/fa6'
 import { FaFacebook } from 'react-icons/fa6'
+import { NavLink } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -14,10 +15,18 @@ const Navbar = () => {
         </div>
 
         <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-        <FaLinkedin />
-        <FaGithub /> 
-        <FaFacebook/>
-        </div>
+  <NavLink href='linkedin.com/in/ muftimehedihasan' target='_blank' rel='noopener noreferrer'>
+    <FaLinkedin />
+  </NavLink>
+  <NavLink href='https://github.com/muftimehedihasan' target='_blank' rel='noopener noreferrer'>
+    <FaGithub />
+  </NavLink>
+  <NavLink href='https://www.facebook.com/muftimehedihasan?mibextid=ZbWKwL
+' target='_blank' rel='noopener noreferrer'>
+    <FaFacebook />
+  </NavLink>
+</div>
+
 
     </nav>
   )
