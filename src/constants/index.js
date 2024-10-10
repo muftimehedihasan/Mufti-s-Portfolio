@@ -12,8 +12,8 @@ export const EXPERIENCES = [
     year: "Jul 2022 - Present",
     role: "Mufti, Researcher",
     company: "Kahf Yazilim A.S",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    description: `Led a team in filtering and maintaining content from the point of view of Islam for Kahftube and Kahfkids. Collaborated with stakeholders to define project requirements and timelines.`,
+    technologies: ["PHP", "VS Codes", "Google Sheets", "Adobe"],
   }
   
 ];
