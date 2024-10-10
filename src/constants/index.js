@@ -50,7 +50,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Mirpur DOHS, Daka, Bangladesh",
+  address: "Mirpur DOHS, Dhaka, Bangladesh",
   phoneNo: "+880 1730 400147 ",
   email: "muftimehedi@kahf.co",
 };
