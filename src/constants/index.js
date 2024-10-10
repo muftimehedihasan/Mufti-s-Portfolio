@@ -12,7 +12,7 @@ export const EXPERIENCES = [
     year: "Jul 2022 - Present",
     role: "Mufti, Researcher",
     company: "Kahf Yazilim A.S",
-    description: `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 2 years of professional experience, I have worked with a variety of technologies, including React.js, Laravel, MySQL. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`,
+    description: `Led a team in filtering and maintaining content from the point of view of Islam for Kahftube and Kahfkids. Collaborated with stakeholders to define project requirements and timelines.`,
     technologies: ["PHP", "VS Codes", "Google Sheets", "Adobe"],
   }
   
