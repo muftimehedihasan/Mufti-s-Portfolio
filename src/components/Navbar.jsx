@@ -16,8 +16,8 @@ const Navbar = () => {
 
         <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
           
-        <NavLink href='https://www.linkedin.com/in/muftimehedihasan' target='_blank' rel='noopener noreferrer'>
-        <FaLinkedin />
+        <NavLink >
+        <FaLinkedin to='https://www.linkedin.com/in/muftimehedihasan' target='_blank' rel='noopener noreferrer'/>
         </NavLink>
         
         <NavLink href='https://github.com/muftimehedihasan' target='_blank' rel='noopener noreferrer'>
