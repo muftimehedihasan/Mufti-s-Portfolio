@@ -5,9 +5,10 @@ import { FaLinkedin, FaGithub, FaFacebook } from 'react-icons/fa6';
 const Navbar = () => {
   return (
     <nav className='mb-20 flex items-center justify-between py-6'>
-      <div className='flex flex-shrink-0 items-center'>
-        <img className='mx-2 w-30' src={logo} alt="Logo" />
-      </div>
+  <div className='flex flex-shrink-0 items-center flex-col'>
+    <img className='mx-2 w-30' src={logo} alt="Logo" />
+    <hr className='w-full border h-[1.5px] bg-white mt-2' />
+  </div>
 
       <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
         <a href='https://www.linkedin.com/in/muftimehedihasan' target='_blank' rel='noopener noreferrer'>
