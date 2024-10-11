@@ -31,8 +31,8 @@ const Projects = () => {
 
             <motion.div
                    whileInView={{ opacity: 1, x: 0 }}
-                   initial={{ opacity: 0, x: 100 }}
-                   transition={{ duration: 1.5 }}
+                initial={{ opacity: 0, x: 100 }}
+                transition={{ duration: 1.5 }}
             className='w-full max-w-xl lg:w-3/4'>
             <h6 className='mb-2 font-semibold'>{project.title}</h6>
             <p className='mb-4 text-neutral-400 '>{project.description}</p>

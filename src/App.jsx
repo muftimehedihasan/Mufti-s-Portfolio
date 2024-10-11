@@ -3,10 +3,12 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
+import Skills from './components/Skills';
 import Technologies from './components/Technologies';
 import Experiences from './components/Experiences';
 import Projects from './components/Projects';
-import Contact from './components/Contact'
+import Education from './components/Education';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -19,8 +21,10 @@ function App() {
       <Navbar />
       <Hero/>
       <About/>
+      <Skills/>
       <Technologies/>
       <Experiences/>
+      <Education/>
       <Projects/>
       <Contact/>
       </div>

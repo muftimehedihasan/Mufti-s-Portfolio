@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithub, FaFacebook } from 'react-icons/fa6';
 
 const Navbar = () => {
   return (
-    <nav className='border-b border-neutral-800 pb-0.5 mb-20 flex items-center justify-between py-6'>
+    <nav className='border-b border-neutral-700 pb-0.5 mb-20 flex items-center justify-between py-6'>
   <div className='flex flex-shrink-0 items-center flex-col'>
   <img className='mx-2 w-30' src={logo} alt="Logo" />
   {/* <hr className='w-3/4 border h-[1.5px] bg-white mt-2' /> */}

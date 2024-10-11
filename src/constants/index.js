@@ -18,6 +18,17 @@ export const EXPERIENCES = [
   
 ];
 
+export const EDUCATION = [
+  {
+    year: "Jul 2022 - Present",
+    role: "Mufti, Researcher",
+    company: "Kahf Yazilim A.S",
+    description: `Led a team in filtering and maintaining content from the point of view of Islam for Kahftube and Kahfkids. Collaborated with stakeholders to define project requirements and timelines.`,
+    technologies: ["PHP", "VS Codes", "Google Sheets", "Adobe"],
+  }
+  
+];
+
 export const PROJECTS = [
   {
     title: "E-Commerce Website",
