@@ -11,7 +11,18 @@ const Navbar = () => {
 </div>
 
 
-      <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
+      <div className='m-8 flex items-center justify-center gap-4 text-2xl'> 
+
+
+           {/* Resume Download Button with Custom Color */}
+           <a href="/path/to/your/resume.pdf" download>
+          <button 
+            className='ml-6 bg-[#1B1B28] text-white text-lg font-semibold px-6 py-3 rounded-lg hover:bg-purple-700 transition duration-300'>
+            Resume
+          </button>
+        </a>
+
+        
         <a href='https://www.linkedin.com/in/muftimehedihasan' target='_blank' rel='noopener noreferrer'>
           <FaLinkedin />
         </a>

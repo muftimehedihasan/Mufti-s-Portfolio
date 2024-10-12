@@ -248,3 +248,152 @@ const About = () => {
 }
 
 export default About
+
+
+
+import project1 from "../assets/projects/project-1.jpg";
+import project2 from "../assets/projects/project-2.jpg";
+import project3 from "../assets/projects/project-3.jpg";
+import project4 from "../assets/projects/project-4.jpg";
+
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React.js, as well as back-end technologies like Laravel, MySQL, AWS. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 2 years of professional experience, I have worked with a variety of technologies, including React.js, MySQL, and AWS. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+
+export const EXPERIENCES = [
+  {
+    year: "Jul 2022 - Present",
+    role: "Mufti, Researcher",
+    company: "Kahf Yazilim A.S",
+    description: `Led a team in filtering and maintaining content from the point of view of Islam for Kahftube and Kahfkids. Collaborated with stakeholders to define project requirements and timelines.`,
+    technologies: ["PHP", "VS Codes", "Google Sheets", "Adobe"],
+  }
+  
+];
+
+export const EDUCATION = [
+  {
+    year: "Jul 2022 - Present",
+    role: "Mufti, Researcher",
+    company: "Kahf Yazilim A.S",
+    description: `Led a team in filtering and maintaining content from the point of view of Islam for Kahftube and Kahfkids. Collaborated with stakeholders to define project requirements and timelines.`,
+    technologies: ["PHP", "VS Codes", "Google Sheets", "Adobe"],
+  }
+  
+];
+
+export const PROJECTS = [
+  {
+    title: "E-Commerce Website",
+    image: project1,
+    description:
+      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+    technologies: ["HTML", "CSS", "React", "Laravel", "MySql"],
+  },
+  {
+    title: "Task Management App",
+    image: project2,
+    description:
+      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+    technologies: ["HTML", "CSS", "React", "Laravel", "MySql"],
+  },
+  {
+    title: "Portfolio Website",
+    image: project3,
+    description:
+      "A personal portfolio website showcasing projects, skills, and contact information.",
+    technologies: ["HTML", "CSS", "React", "Laravel", "MySql"],
+  },
+  {
+    title: "Blogging Platform",
+    image: project4,
+    description:
+      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+    technologies: ["HTML", "CSS", "React", "Laravel", "MySql"],
+  },
+];
+
+export const CONTACT = {
+  address: "Mirpur DOHS, Dhaka, Bangladesh",
+  phoneNo: "+880 1730 400147 ",
+  email: "muftimehedi@kahf.co",
+};
+
+
+
+
+import React from 'react'
+import logo from "../assets/Logo.png"
+import { FaLinkedin, FaGithub, FaFacebook } from 'react-icons/fa6';
+
+const Navbar = () => {
+  return (
+    <nav className='border-b border-neutral-700 pb-0.5 mb-20 flex items-center justify-between py-6'>
+  <div className='flex flex-shrink-0 items-center flex-col'>
+  <img className='mx-2 w-30' src={logo} alt="Logo" />
+  {/* <hr className='w-3/4 border h-[1.5px] bg-white mt-2' /> */}
+</div>
+
+
+      <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
+        <a href='https://www.linkedin.com/in/muftimehedihasan' target='_blank' rel='noopener noreferrer'>
+          <FaLinkedin />
+        </a>
+        
+        <a href='https://github.com/muftimehedihasan' target='_blank' rel='noopener noreferrer'>
+          <FaGithub />
+        </a>
+
+        <a href='https://www.facebook.com/muftimehedihasan?mibextid=ZbWKwL' target='_blank' rel='noopener noreferrer'>
+          <FaFacebook />
+        </a>
+      </div>
+    </nav>
+  )
+}
+
+export default Navbar;
+
+
+
+import React from 'react';
+import logo from "../assets/Logo.png";
+import { FaLinkedin, FaGithub, FaFacebook } from 'react-icons/fa6';
+
+const Navbar = () => {
+  return (
+    <nav className='border-b border-neutral-700 pb-0.5 mb-20 flex items-center justify-between py-6'>
+      <div className='flex flex-shrink-0 items-center flex-col'>
+        <img className='mx-2 w-30' src={logo} alt="Logo" />
+        {/* <hr className='w-3/4 border h-[1.5px] bg-white mt-2' /> */}
+      </div>
+
+      <div className='flex items-center justify-center gap-4 text-2xl'>
+
+        {/* Resume Download Button with Custom Color */}
+        <a href="/path/to/your/resume.pdf" download>
+          <button 
+            className='ml-6 bg-[#1B1B28] text-white text-lg font-semibold px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300'>
+            Resume
+          </button>
+        </a>
+        
+        <a href='https://www.linkedin.com/in/muftimehedihasan' target='_blank' rel='noopener noreferrer'>
+          <FaLinkedin />
+        </a>
+        
+        <a href='https://github.com/muftimehedihasan' target='_blank' rel='noopener noreferrer'>
+          <FaGithub />
+        </a>
+
+        <a href='https://www.facebook.com/muftimehedihasan?mibextid=ZbWKwL' target='_blank' rel='noopener noreferrer'>
+          <FaFacebook />
+        </a>
+
+        
+      </div>
+    </nav>
+  );
+}
+
+export default Navbar;

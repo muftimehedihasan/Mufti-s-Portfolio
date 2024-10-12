@@ -5,12 +5,15 @@ import { motion } from "framer-motion";  // Import Framer Motion for animations
 const Skills = () => {
   // Define an array of Full Stack Developer skills with their respective percentage and color
   const skills = [
-    { skill: "JavaScript", percentage: 90, color: "#f59e0b" },
-    { skill: "React.js", percentage: 85, color: "#06b6d4" },
-    { skill: "Laravel", percentage: 75, color: "#f43f5e" },
-    { skill: "MySQL", percentage: 70, color: "#14b8a6" },
-    { skill: "CSS3 / Tailwind CSS", percentage: 85, color: "#3b82f6" },
-    { skill: "AWS", percentage: 80, color: "#10b981" },
+    // { skill: "JavaScript", percentage: 90, color: "#f59e0b" },
+    // { skill: "React.js", percentage: 85, color: "#06b6d4" },
+    // { skill: "Laravel", percentage: 75, color: "#f43f5e" },
+    // { skill: "MySQL", percentage: 70, color: "#14b8a6" },
+    // { skill: "CSS3 / Tailwind CSS", percentage: 85, color: "#3b82f6" },
+    // { skill: "AWS", percentage: 80, color: "#10b981" },
+    { skill: "Leadership", percentage: 85, color: "#10b981" },
+    { skill: "Multi-tasking", percentage: 85, color: "#10b981" },
+    { skill: "Communication", percentage: 85, color: "#10b981" },
   ];
 
   return (
@@ -22,7 +25,7 @@ const Skills = () => {
         transition={{ duration: 0.5 }}       // Animation duration
         className='my-20 text-center text-4xl'
       >
-        Skills
+       Soft Skills
       </motion.h1>
 
       {/* Skill Progress Bars */}
