@@ -3,6 +3,7 @@ import SkillProgressBar from './SkillProgressBar';  // Import SkillProgressBar c
 
 const Skills = () => {
   const skill = { skill: "Project Planning", percentage: 85, color: "#06b6d4" };  // Define one skill
+  const skill2 = { skill: "Project Planning2", percentage: 80, color: "#06b6d4" };  // Define one skill
 
   return (
     <section id="skills" className="flex flex-col items-center justify-center h-screen bg-neutral-900">
