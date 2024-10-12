@@ -9,7 +9,7 @@ const Skills = () => {
     { skill: "React.js", percentage: 85, color: "#06b6d4" },
     { skill: "Laravel", percentage: 75, color: "#f43f5e" },
     { skill: "MySQL", percentage: 70, color: "#14b8a6" },
-    { skill: "CSS3 / Tailwind CSS", percentage: 85, color: "#3b82f6" },
+    { skill: "Datastructure & Algorithms", percentage: 50, color: "#3b82f6" },
     { skill: "AWS", percentage: 80, color: "#10b981" },
   ];
 

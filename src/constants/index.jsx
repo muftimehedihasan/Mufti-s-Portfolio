@@ -15,6 +15,12 @@ export const ABOUT_TEXT = (
     I started education in my village school. In 2020, I completed <b>Dawra-e-Hadith (Master's degree)</b> from Bogura Jamil Madrasa, and in 2021, I completed <b>Ifta (Higher Islamic Law & Fatawa)</b> from Jamia Abu Bakr Siddiq (RA) Dhaka. After that, I began working with technology.
     <br /><br />
     The <b>Seerah of Prophet Muhammad (PBUH)</b> is my ideal, and I follow the <b>Sahaba</b> (companions), <b>Tabi'in</b> (followers), <b>Tabe-Tabi'in</b> (followers of the followers), and all those devoted to Islam and the Muslim Ummah. They are my guides, and I aspire to be one of those individuals.
+    <br /> <br />
+    My future plan in technology is to work with a team that embraces what is good and discards what is harmful. I aspire to continually seek out innovations that can be used for the benefit of the Ummah and the welfare of humanity.
+    <br /> <br />
+    I am currently exploring and engaging in research across various fields, including computer science, web and software development, blockchain technology, artificial intelligence, big data, and cybersecurity, with a focus on advancing my knowledge and staying updated with cutting-edge innovations.
+
+
   </>
 );
 

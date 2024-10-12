@@ -23,15 +23,15 @@ const Navbar = () => {
         </a>
 
         
-        <a href='https://www.linkedin.com/in/muftimehedihasan' target='_blank' rel='noopener noreferrer'>
+        <a className='hover:bg-purple-700 transition duration-300 rounded' href='https://www.linkedin.com/in/muftimehedihasan' target='_blank' rel='noopener noreferrer'>
           <FaLinkedin />
         </a>
         
-        <a href='https://github.com/muftimehedihasan' target='_blank' rel='noopener noreferrer'>
+        <a className='hover:bg-purple-700 transition duration-300 rounded-full' href='https://github.com/muftimehedihasan' target='_blank' rel='noopener noreferrer'>
           <FaGithub />
         </a>
 
-        <a href='https://www.facebook.com/muftimehedihasan?mibextid=ZbWKwL' target='_blank' rel='noopener noreferrer'>
+        <a className='hover:bg-purple-700 transition duration-300 rounded-full' href='https://www.facebook.com/muftimehedihasan?mibextid=ZbWKwL' target='_blank' rel='noopener noreferrer'>
           <FaFacebook />
         </a>
       </div>
