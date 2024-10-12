@@ -1,19 +1,47 @@
 import React from 'react';
 import SkillProgressBar from './SkillProgressBar';  // Import SkillProgressBar component
+import { motion } from "framer-motion";  // Import Framer Motion for animations
 
 const Skills = () => {
-  const skill = { skill: "Project Planning", percentage: 85, color: "#06b6d4" };  // Define one skill
-  const skill2 = { skill: "Project Planning2", percentage: 80, color: "#06b6d4" };  // Define one skill
+  // Define an array of skills with their respective percentage and color
+  const skills = [
+    { skill: "Project Planning", percentage: 85, color: "#06b6d4" },
+    { skill: "Budgeting", percentage: 75, color: "#f43f5e" },
+    { skill: "Team Leadership", percentage: 85, color: "#14b8a6" },
+    { skill: "Stakeholder Engagement", percentage: 80, color: "#10b981" },
+    { skill: "Risk Assessment", percentage: 70, color: "#a855f7" },
+    { skill: "Agile/Scrum", percentage: 90, color: "#f59e0b" },
+  ];
 
   return (
-    <section id="skills" className="flex flex-col items-center justify-center h-screen bg-neutral-900">
-      <h2 className="text-3xl font-bold text-cyan-300 mb-10">My Skills</h2>
-      <SkillProgressBar 
-        skill={skill.skill} 
-        percentage={skill.percentage} 
-        color={skill.color} 
-      />
-    </section>
+    <div className='border-b border-neutral-800 pb-24'>
+      {/* Section Title with Animation */}
+      <motion.h1 
+        whileInView={{ opacity: 1, y: 0 }}  // Animation when element comes into view
+        initial={{ opacity: 0, y: -100 }}    // Initial state (out of view)
+        transition={{ duration: 0.5 }}       // Animation duration
+        className='my-20 text-center text-4xl text-cyan-300'
+      >
+        Skills
+      </motion.h1>
+
+      {/* Skill Progress Bars */}
+      <motion.div 
+       whileInView={{ opacity: 1, x: 0 }}
+       initial={{ opacity: 0, x: -100 }}
+       transition={{ duration: 1.5 }}
+      
+      className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+        {skills.map((skill, index) => (
+          <SkillProgressBar 
+            key={index}               // Unique key for each child in the list
+            skill={skill.skill}        // Pass skill name
+            percentage={skill.percentage}  // Pass skill percentage
+            color={skill.color}        // Pass skill color
+          />
+        ))}
+      </motion.div>
+    </div>
   );
 };
 
